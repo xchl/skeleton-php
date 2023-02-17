@@ -16,7 +16,7 @@ This package provides a wonderful **PHP Skeleton** to start building your next p
 ⚡️ Create your package using [Composer](https://getcomposer.org):
 
 ```bash
-composer create-project nunomaduro/skeleton-php --prefer-source PackageName
+composer create-project xchl/skeleton-php --prefer-source PackageName
 ```
 
 🧹 Keep a modern codebase with **Pint**:
