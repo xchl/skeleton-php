@@ -10,13 +10,10 @@
         }
     ],
     "require": {
-        "php": "^8.2.0"
-    },
-    "require-dev": {
-        "laravel/pint": "^1.4",
-        "pestphp/pest": "^2.0.0",
-        "phpstan/phpstan": "^1.9.11",
-        "symfony/var-dumper": "^6.2.3"
+        "php": "^7.4",
+        "pestphp/pest": "^1.22",
+        "phpstan/phpstan": "^1.9",
+        "symfony/var-dumper": "^5.4"
     },
     "autoload": {
         "psr-4": {
@@ -38,12 +35,9 @@
         }
     },
     "scripts": {
-        "lint": "pint -v",
-        "test:lint": "pint --test -v",
         "test:types": "phpstan analyse --ansi",
         "test:unit": "pest --colors=always",
         "test": [
-            "@test:lint",
             "@test:types",
             "@test:unit"
         ]
